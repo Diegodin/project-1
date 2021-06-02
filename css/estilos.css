@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box; 
     /* box-sizing: border-box para que las cajas no se desborden unas con otras */
@@ -15,7 +15,7 @@ a{
     flex-flow: column nowrap;
 }
     .header{
-        background: url(../imagenes/5.jpg);
+        background: url(../imagenes/3.jpg);
         background-position: center;
         background-attachment: contain;
         background-size: cover;
@@ -27,15 +27,16 @@ a{
             background: rgba(0, 0, 0, .1);
             display: flex;
             flex-flow: row nowrap;
-            height: 100px;
+            height: 60px;
             align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, .5);
         }
             .logo{
                 flex: 1 1 auto;
             }
                 .logo a{
                     color: azure;
-                    font-size: 32px;
+                    font-size: 28px;
                     
                 }
 
@@ -47,16 +48,27 @@ a{
             }
                 .nav a{
                     color: azure;
-                    font-size: 15px;
+                    font-size: 13px;
                     text-transform:uppercase;
                     padding: 0 10px;
                     letter-spacing: 2px;
                 }
+
+                .nav a:hover{
+                    color: black;
+                }
             .social{
                 flex: 1 1 auto;
+                display: flex;
             }
                 .social a{
                     color: azure;
+                    font-size: 14px;
+                    padding: 0 5px;
+                }
+
+                .social a:hover{
+                    color: black;
                 }
             .texto-principal{
                 background: #f07b3f;
