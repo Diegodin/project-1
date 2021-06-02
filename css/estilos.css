@@ -2,10 +2,11 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box; 
-    font-family: 'Roboto', sans-serif;
     /* box-sizing: border-box para que las cajas no se desborden unas con otras */
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .padre{
     display: flex;
     flex-flow: column nowrap;
@@ -29,18 +30,15 @@
             .logo{
                 background: #ea5455;
                 flex: 1 1 auto;
-                height: 30px;
             }
 
             .nav{
                 background: #ea5455;
                 flex: 5 1 auto;
-                height: 30px;
             }
             .social{
                 background: #ea5455;
                 flex: 1 1 auto;
-                height: 30px;
             }
 
             .texto-principal{
