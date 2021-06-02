@@ -5,7 +5,10 @@
     /* box-sizing: border-box para que las cajas no se desborden unas con otras */
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mate SC', serif;
+}
+a{
+    text-decoration: none;
 }
 .padre{
     display: flex;
@@ -21,26 +24,40 @@ body{
     }
 
         .menu{
-            background: #2d4059;
+            background: rgba(0, 0, 0, .1);
             display: flex;
             flex-flow: row nowrap;
             height: 100px;
             align-items: center;
         }
             .logo{
-                background: #ea5455;
                 flex: 1 1 auto;
             }
+                .logo a{
+                    color: azure;
+                    font-size: 32px;
+                    
+                }
 
+                .logo a:hover{
+                    color: black;
+                }
             .nav{
-                background: #ea5455;
                 flex: 5 1 auto;
             }
+                .nav a{
+                    color: azure;
+                    font-size: 15px;
+                    text-transform:uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
             .social{
-                background: #ea5455;
                 flex: 1 1 auto;
             }
-
+                .social a{
+                    color: azure;
+                }
             .texto-principal{
                 background: #f07b3f;
             }
